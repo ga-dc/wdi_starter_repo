@@ -62,13 +62,13 @@ For example, the sequence of commands you might follow to complete the above pro
 
 ```
 # Click grey 'Fork' button on Github
-js1989: ~/wdi $ git clone git@github.com:js1989/homeworkaroo.git
-js1989: ~/wdi/homeworkaroo $ cd homeworkaroo
-js1989: ~/wdi/homeworkaroo (master) $ git checkout -b johnsmith_solution
-js1989: ~/wdi/homeworkaroo (johnsmith_solution) $ touch did_my_homework.txt
-js1989: ~/wdi/homeworkaroo (johnsmith_solution *) $ git add did_my_homework.txt
-js1989: ~/wdi/homeworkaroo (johnsmith_solution +) $ git commit -m "Added did_hw file. All done"
-js1989: ~/wdi/homeworkaroo (johnsmith_solution) $ git push origin johnsmith_solution
+$ ~/wdi $ git clone git@github.com:js1989/homeworkaroo.git
+$ ~/wdi/homeworkaroo $ cd homeworkaroo
+$ ~/wdi/homeworkaroo (master) $ git checkout -b johnsmith_solution
+$ ~/wdi/homeworkaroo (johnsmith_solution) $ touch did_my_homework.txt
+$ ~/wdi/homeworkaroo (johnsmith_solution *) $ git add did_my_homework.txt
+$ ~/wdi/homeworkaroo (johnsmith_solution +) $ git commit -m "Added did_hw file. All done"
+$ ~/wdi/homeworkaroo (johnsmith_solution) $ git push origin johnsmith_solution
 # Click green 'New pull request' button on Github
 # Click green 'Create pull request' button
 # Click the new 'Create pull request' button

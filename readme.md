@@ -1,3 +1,17 @@
+## Convert Starter Repo to Cohort Repo - BEFORE YOU START CLASS!!!!
+
+<!-- TODO: create app that greps codebase -->
+<!-- TODO: tell brian to standardize naming conventions for slack channels-->
+- run `updateCohort.js` and enter cohort number
+```bash
+$ node updateCohort.js
+```
+- Update `squads.md` file to update squads
+- Update invite code in `before-wdi.md`
+- Update `docs/schedule.yml`
+- Update `checkpoints.md` as needed
+- Delete this header and bullets
+
 # ![](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67) WDI <<cohort>> Syllabus
 
 ## Administrative
@@ -50,11 +64,3 @@ When are instructors available outside of in-class instruction?
   </pre>
 - These same backtick tricks also work on **Github** and **Slack**.
 - `@here`: Sends a message to everyone currently online in a Slack room
-
-## Convert Starter Repo to Cohort Repo
-
-<!-- TODO: create app that greps codebase -->
-<!-- TODO: tell brian to standardize naming conventions for slack channels-->
-- Use gem or npm to input cohort to change all instances of cohort
-- Update `squads.md` file to update squads
-- Delete this header and bullets
