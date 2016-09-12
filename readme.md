@@ -8,7 +8,7 @@ $ node updateCohort.js
 ```
 - Update `squads.md` file to update squads
 - Update invite code in `before-wdi.md`
-- Update `docs/schedule.yml`
+- Update `docs` directory
 - Update `checkpoints.md` as needed
 - Delete this header and bullets
 
