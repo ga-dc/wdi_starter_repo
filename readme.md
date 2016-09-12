@@ -1,9 +1,9 @@
-# ![](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67) WDI 12 Syllabus
+# ![](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67) WDI <<cohort>> Syllabus
 
 ## Administrative
 
 - **[Graduation Requirements](graduation-requirements.md)**
-- **[Calendar](http://ga-dc.github.io/wdi12/)**
+- **[Calendar](http://ga-dc.github.io/wdi<<cohort>>/)**
 - [Attendance](attendance.md)
 - [Homework Policy](homework-policy.md)
 - [One-on-Ones](one-on-ones.md)
@@ -22,9 +22,9 @@
 - [Asking for Help](asking-for-help.md)
 - Slack
   - You have been invited to three different slack teams:
-    - [WDI DC 12](https://wdi12dc.slack.com) - Our primary slack team
-      - [#announcements](https://wdi12dc.slack.com/archives/announcements)
-      - [#discussion](https://wdi12dc.slack.com/archives/discussion)
+    - [WDI DC <<cohort>>](https://wdi<<cohort>>dc.slack.com) - Our primary slack team
+      - [#announcements](https://wdi<<cohort>>dc.slack.com/archives/announcements)
+      - [#discussion](https://wdi<<cohort>>dc.slack.com/archives/discussion)
     - [GA DC Campus](https://gadc-campus.slack.com) - The DC alumni team
     - [GA Immersive Students](https://ga-students.slack.com) - Every Immersive student ever at any campus
       - [#wdi-fundamentals](https://ga-students.slack.com/messages/wdi-fundamentals/)
@@ -50,3 +50,11 @@ When are instructors available outside of in-class instruction?
   </pre>
 - These same backtick tricks also work on **Github** and **Slack**.
 - `@here`: Sends a message to everyone currently online in a Slack room
+
+## Convert Starter Repo to Cohort Repo
+
+<!-- TODO: create app that greps codebase -->
+<!-- TODO: tell brian to standardize naming conventions for slack channels-->
+- Use gem or npm to input cohort to change all instances of cohort
+- Update `squads.md` file to update squads
+- Delete this header and bullets
